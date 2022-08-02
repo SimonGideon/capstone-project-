@@ -69,6 +69,7 @@ body {
         opacity: 0.95;
         z-index: 10;
         color: white;
+        text-align: left;
     }
 
     .menu-1,
@@ -85,4 +86,19 @@ body {
         border-top: 1px solid rgb(60, 63, 70);
         position: relative;
     }
+
+    .arrow {
+        float: right;
+    }
+/* close btn */
+    .close-btn {
+        font-size: 1em;
+        width: calc(85% - 4px);
+        text-align: right;
+    }
+
+    .close-btn img {
+        text-align: right;
+    }
+
 }
