@@ -3,9 +3,82 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+  font-family: Nanum Gothic;
+  color: rgb(51, 51, 51);
+}
 
-@media only screen and (max-width: 768px) {
+.header_wrap {
+    width: 100%;
+    text-align: center;
+}
+
+.wrap {
+  width: 100%;
+}
+
+.header_wrap {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 8px 0px;
+    position: relative;
+}
+
+.mobile-menu-ico img {
+    width: 20px;
+}
+@media only screen and (max-width: 1000px) {
     .top-wrapper {
         display: none;
+    }
+    .main_menu {   
+        display: flex;
+        flex-direction: row;
+    }
+
+    .main-logo img {
+        text-align: center;
+        margin-right: 50%;
+        margin-left: 50%;
+    }
+
+    .menus {
+        display: none;
+    }
+
+    .main_logo_wrap {
+        text-align: center;
+        width: 100%;
+        text-align: center;
+        margin: 1em 0px;
+    }
+
+    .mobile-menu-ico {
+        position: absolute;
+        top: 35px;
+        left: 20px;
+        z-index: 1;
+    }
+
+    .menus {
+        height: 10104px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: block;
+        width: 85%;
+        background: rgb(39, 42, 50) none repeat scroll 0% 0%;
+        opacity: 0.95;
+        z-index: 10;
+    }
+
+    .menu-1 {
+        font-size: 1em;
+        height: 2.5em;
+        line-height: 2.5em;
+        color: rgb(255, 255, 255);
+        width: calc(85% - 4px);
+        padding: 0px 25px;
+        border-top: 1px solid rgb(60, 63, 70);
+        position: relative;
+}
     }
 } 
