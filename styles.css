@@ -25,6 +25,18 @@ body {
 .mobile-menu-ico img {
     width: 20px;
 }
+/* menu-items */
+.menu-6 span {
+    font-weight: bold;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #ef513c;
+    padding: 0 15px;
+    color: #fff;
+    border: 0;
+    display: inline-block;
+    font-size: 1.125em;
+}
 @media only screen and (max-width: 1000px) {
     .top-wrapper {
         display: none;
@@ -76,7 +88,8 @@ body {
     .menu-2,
     .menu-3,
     .menu-4,
-    .menu-5 {
+    .menu-5,
+    .menu-6 {
         font-size: 1em;
         height: 2.5em;
         line-height: 2.5em;
@@ -85,6 +98,10 @@ body {
         padding: 0px 25px;
         border-top: 1px solid rgb(60, 63, 70);
         position: relative;
+    }
+
+    .menu-6 {
+        border-bottom: 1px solid rgb(60, 63, 70);
     }
 
     .arrow {
